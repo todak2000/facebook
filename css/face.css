@@ -1,0 +1,256 @@
+html,body{
+	margin:0;
+	overflow: hidden;
+	height: 100vh;
+}
+.header{
+	background-color:#3b5998;
+	/*height: 125px;*/
+	height: 10vh;
+}
+.profile_header{
+	background-color:#3b5998;
+	/*height: 125px;*/
+	height: 5vh;
+}
+.main-body{
+	background-color:#e9ebee;
+	/*height: 700px;*/
+	height: 65vh;
+}
+.profile-body{
+	background-color:#e9ebee;
+	/*height: 700px;*/
+	height: 90vh;
+}
+.font-small{
+	font-size: 13px;
+}
+.prof{
+	margin-top: 0;
+}
+.footer{
+	background-color: #ffffff;
+	/*height: 150px;*/
+	height: 25vh;
+}
+.footer_profile{
+	background-color: #ffffff;
+	/*height: 150px;*/
+	height: 5vh;
+}
+.connect{
+	height: 70vh;
+	padding-top: 60px;
+	/*background-color:#e54;*/
+}
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+.fb-image-profile
+{
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%; 
+    border: 3px solid #ccc;
+    border-radius: 30px;
+}
+
+.connect-inner{
+	padding-top: 30px;
+}
+.tp-30{
+	padding-top:30px;
+}
+.aref{
+	color: #3b5998;
+}
+/*.empahsis{
+	font-weight: bolder;
+}*/
+#see-photos{
+	padding-top: 20px;
+	color: #414e66;
+	font-size: 14px;
+}
+.lnr-users{
+	font-size: 60px;
+	color: #7890bc;
+	padding-left: 20px;
+}
+.lnr-film-play{
+	font-size: 60px;
+	color: #7890bc;
+	padding-left: 20px;
+}
+.lnr-magic-wand{
+	font-size: 60px;
+	color: #7890bc;
+	padding-left: 20px;
+}
+.signup-form{
+	height: 70vh;
+	/*background-color:#aa4;*/
+}
+.header-writeup{
+	background-color:transparent;
+	/*height: 80px;*/
+	margin-top: 20px;
+}
+.search{
+	padding-top:-20px;
+}
+.face{
+	color: #fff;
+}
+.p-email{
+	color: #fff;
+	margin-bottom: 0px;
+}
+.p-pass{
+	color: #fff;
+	margin-bottom: 0px;
+}
+.sign-in{
+	margin-top: 20px;
+	background-color: #365899;
+	color: #fff;
+	border-color: #4169e1;
+}
+#title{
+	font-size: 250%;
+}
+.input-sm{
+	width: 100%;
+	height: 25px;
+}
+.input-search{
+	width: 70%;
+	height: 25px;
+}
+.bd{
+	font-weight: bolder;
+}
+.bl{
+	width: 40%;
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    color: #fff;
+    font-weight: bolder;
+}
+.mdd{
+	width: 100%;
+	height: 35px;
+	padding-left: 10px;
+
+}
+.hide_div{
+	display: none;
+}
+.
+@media (min-width: 767px) {
+	.email{
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 0;
+	}
+	.pass{
+	margin-right: 0;
+	padding-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	}
+	.sign{
+	margin-right: 0;
+	padding-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	}
+	.log1{
+		display: none;
+	}
+	.log2{
+		display: visible;
+	}
+}
+@media (max-width:766px)
+{
+	html,body{
+	margin:0;
+	overflow: visible;
+	height: 100%;
+}
+
+.log1{
+		display: visible;
+	}
+	.log2{
+		display: none;
+	}
+    
+.fb-profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
+}
+
+.fb-image-profile
+{
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+    width: 20%; 
+}
+
+.header{
+	background-color:#3b5998;
+	/*height: 125px;*/
+	padding-left: 5%;
+	height: auto;
+	padding-bottom: 10px;
+	}
+	
+.main-body{
+	background-color:#e9ebee;
+	padding-left: 5%;
+	height: auto;
+	}
+.footer{
+	background-color: #ffffff;
+	/*height: 150px;*/
+	display: none;
+	height: auto;
+	padding-left: 5%;
+	}
+	.connect{
+		display: none;
+	}
+	.signup-form{
+		margin-bottom: -80px;
+		height: 100%;
+	}
+	.aref{
+		font-size: 9px;
+	}
+	.create{
+		display: none;
+	}
+	.facebook{
+		text-align: center;
+	}
+}
+@media (max-width:400px)
+{
+	.create{
+		display: none;
+	}
+	.footer{
+		display: none;
+	}
+	.header-empty{
+		display: none;
+	}
+}
