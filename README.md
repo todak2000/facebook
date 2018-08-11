@@ -1,4 +1,4 @@
-#Facebook landing page
+## Facebook landing page
 ### This is a prototype of facebook landing page which looks almost exactly as the original page. On this page, one is expected to either login or sign up. It is important to note here that it was not designed for login purposes but one can sign up and it redirects to a profile page. 
 
 
@@ -17,7 +17,7 @@
 #### HEROKU CLOUD
 
 ## Website Link
-#### https://phonewave.herokuapp.com/
+#### https://facebukk.herokuapp.com/
 
 
 ## Author
